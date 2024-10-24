@@ -1,22 +1,15 @@
-import logo from './logo.svg';
+import lines from './lines.svg';
+import open_circle from './station_circle_open.svg';
+import closed_circle from './station_circle_closed.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={lines} className="Lines-back" alt="logo"/>
+        <img src={open_circle} className="Station-circle" alt="logo" />
+        <img src={closed_circle} className="Station-circle" alt="logo" />
       </header>
     </div>
   );
