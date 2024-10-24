@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-native-svg": "^15.8.0",
+    "react-native-svg-transformer": "^1.5.0"
+  },
+  "devDependencies": {
+    "metro-config": "^0.81.0"
+  }
+}
