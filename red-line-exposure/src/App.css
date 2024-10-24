@@ -33,11 +33,40 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Container for the entire app */
+.container {
+  padding: 20px;
+  background-color: #282c34;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Styling for the SVG map */
+.svg {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Container for the station and travel info */
+.infoContainer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #eee;
+}
+
+/* Button styles */
+.button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007BFF;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
